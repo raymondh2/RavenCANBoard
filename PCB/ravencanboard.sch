@@ -428,10 +428,10 @@ F 3 "" H -2250 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C5
+L Device:C_Small C3
 U 1 1 5EC16281
 P 6750 1150
-F 0 "C5" V 6979 1150 50  0000 C CNN
+F 0 "C3" V 6979 1150 50  0000 C CNN
 F 1 ".1uF" V 6888 1150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6750 1150 50  0001 C CNN
 F 3 "~" H 6750 1150 50  0001 C CNN
@@ -549,19 +549,6 @@ F 3 "~" H 6200 4600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6050 4100 6050 4050
-$Comp
-L power:GND #PWR0113
-U 1 1 5EC28D67
-P 6050 4100
-F 0 "#PWR0113" H 6050 3850 50  0001 C CNN
-F 1 "GND" H 6050 3950 50  0000 C CNN
-F 2 "" H 6050 4100 50  0000 C CNN
-F 3 "" H 6050 4100 50  0000 C CNN
-	1    6050 4100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	6400 4100 6400 4050
 $Comp
 L power:GND #PWR0111
@@ -575,19 +562,6 @@ F 3 "" H 6400 4100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6050 3850 6050 3800
-$Comp
-L power:+3.3V #PWR0110
-U 1 1 5EC2226E
-P 6050 3800
-F 0 "#PWR0110" H 6050 3650 50  0001 C CNN
-F 1 "+3.3V" H 6050 3940 50  0000 C CNN
-F 2 "" H 6050 3800 50  0000 C CNN
-F 3 "" H 6050 3800 50  0000 C CNN
-	1    6050 3800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	6400 3850 6400 3800
 $Comp
 L power:+3.3V #PWR0108
@@ -598,17 +572,6 @@ F 1 "+3.3V" H 6400 3940 50  0000 C CNN
 F 2 "" H 6400 3800 50  0000 C CNN
 F 3 "" H 6400 3800 50  0000 C CNN
 	1    6400 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C3
-U 1 1 5EC18849
-P 6050 3950
-F 0 "C3" V 5800 4000 50  0000 R CNN
-F 1 "10uF" V 5900 4050 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6050 3950 50  0001 C CNN
-F 3 "~" H 6050 3950 50  0001 C CNN
-	1    6050 3950
 	1    0    0    -1  
 $EndComp
 $Comp
