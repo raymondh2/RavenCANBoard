@@ -154,39 +154,6 @@ F 3 "" H 3000 7200 60  0001 C CNN
 	1    3000 7200
 	1    0    0    -1  
 $EndComp
-$Comp
-L ravencanboard-rescue:Mounting_Hole-Mechanical MK3
-U 1 1 5834FBEF
-P 3450 7200
-F 0 "MK3" H 3550 7246 50  0000 L CNN
-F 1 "M2.5" H 3550 7155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 3450 7200 60  0001 C CNN
-F 3 "" H 3450 7200 60  0001 C CNN
-	1    3450 7200
-	1    0    0    -1  
-$EndComp
-$Comp
-L ravencanboard-rescue:Mounting_Hole-Mechanical MK2
-U 1 1 5834FC19
-P 3000 7400
-F 0 "MK2" H 3100 7446 50  0000 L CNN
-F 1 "M2.5" H 3100 7355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 3000 7400 60  0001 C CNN
-F 3 "" H 3000 7400 60  0001 C CNN
-	1    3000 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L ravencanboard-rescue:Mounting_Hole-Mechanical MK4
-U 1 1 5834FC4F
-P 3450 7400
-F 0 "MK4" H 3550 7446 50  0000 L CNN
-F 1 "M2.5" H 3550 7355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 3450 7400 60  0001 C CNN
-F 3 "" H 3450 7400 60  0001 C CNN
-	1    3450 7400
-	1    0    0    -1  
-$EndComp
 Text Notes 3000 7050 0    50   ~ 0
 Mounting Holes
 Wire Wire Line
@@ -662,4 +629,15 @@ Wire Wire Line
 	7500 2300 6900 2300
 Text Label 7500 2300 2    50   ~ 0
 GPIO25(GEN6)
+$Comp
+L ravencanboard-rescue:Mounting_Hole-Mechanical MK2
+U 1 1 5834FC19
+P 3000 7400
+F 0 "MK2" H 3100 7446 50  0000 L CNN
+F 1 "M2.5" H 3100 7355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 3000 7400 60  0001 C CNN
+F 3 "" H 3000 7400 60  0001 C CNN
+	1    3000 7400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
