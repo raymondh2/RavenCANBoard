@@ -1,6 +1,29 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# 171857-0002-SamacSys_Parts
+#
+DEF 171857-0002-SamacSys_Parts J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "171857-0002-SamacSys_Parts" 650 200 50 H V L CNN
+F2 "171857-0002" 650 100 50 H I L CNN
+F3 "http://www.molex.com/webdocs/datasheets/pdf/en-us//1718570002_PCB_HEADERS.pdf" 650 0 50 H I L CNN
+F4 "KK 254 RPC Pin Header right angle 2way Molex 171857 Series, 2.54mm Pitch 2 Way 1 Row Right Angle PCB Header, Solder Termination, 4A" 650 -100 50 H I L CNN "Description"
+F5 "Molex" 650 -300 50 H I L CNN "Manufacturer_Name"
+F6 "171857-0002" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F7 "538-171857-0002" 650 -500 50 H I L CNN "Mouser Part Number"
+F8 "https://www.mouser.com/Search/Refine.aspx?Keyword=538-171857-0002" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F9 "7922893P" 650 -700 50 H I L CNN "RS Part Number"
+F10 "http://au.rs-online.com/web/p/products/7922893P" 650 -800 50 H I L CNN "RS Price/Stock"
+F11 "70314282" 650 -900 50 H I L CNN "Allied_Number"
+F12 "https://www.alliedelec.com/molex-incorporated-171857-0002/70314282/" 650 -1000 50 H I L CNN "Allied Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 U
+X 2 2 0 -100 200 R 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
 # Mounting_Hole-Mechanical
 #
 DEF Mounting_Hole-Mechanical MK 0 40 Y Y 1 F N
