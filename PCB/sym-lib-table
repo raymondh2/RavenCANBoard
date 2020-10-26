@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name ravencanboard-rescue)(type Legacy)(uri ${KIPRJMOD}/ravencanboard-rescue.lib)(options "")(descr ""))
+  (lib (name RavenCANBoard)(type Legacy)(uri ${KIPRJMOD}/Library/RavenCANBoard.lib)(options "")(descr ""))
 )

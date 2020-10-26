@@ -383,7 +383,7 @@ Connection ~ 3000 2700
 Wire Wire Line
 	3000 2700 2900 2700
 $Comp
-L Connector_Generic:Conn_02x20_Odd_Even P1
+L RavenCANBoard:Conn_02x20_Odd_Even P1
 U 1 1 59AD464A
 P 2600 2000
 F 0 "P1" H 2650 3117 50  0000 C CNN
